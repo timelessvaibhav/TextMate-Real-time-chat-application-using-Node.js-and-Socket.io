@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    background: #000000bf;
+    margin-bottom: 25px;
+}
+body{
+    background: url('https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29yayUyMGRlc2t8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 950px;
+    margin: auto;
+    height: 75vh;
+    overflow-y: auto;
+    box-sizing: content-box;
+}
+.message{
+    background-color: #100606b8;
+    width: 24%;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 17px 12px;
+    color: white;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+#messageInp{
+    width: 50%;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 30px;
+}
+.btn{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
