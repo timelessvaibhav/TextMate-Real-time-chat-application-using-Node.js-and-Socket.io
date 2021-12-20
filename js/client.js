@@ -37,7 +37,7 @@ socket.emit('new-user-joined', name);
 
 // When a new user joins, receive their name from the server
 socket.on('user-joined', name=>{
-    append(`${name} joined the chat`,'right');
+    append(`${name} joined the chat`,'left');
 })
 
 // When someone sends a message 

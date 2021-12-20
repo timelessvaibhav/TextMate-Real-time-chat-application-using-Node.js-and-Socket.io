@@ -7,7 +7,7 @@
     margin: auto;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 500;
     background: #000000bf;
     margin-bottom: 25px;
@@ -29,7 +29,7 @@ body{
 }
 .message{
     background-color: #100606b8;
-    width: 24%;
+    width: 30%;
     padding: 10px;
     border-radius: 12px;
     margin: 17px 12px;
@@ -38,6 +38,7 @@ body{
 .left{
     float: left;
     clear: both;
+    background-color: #332d2acf;
 }
 .right{
     float: right;
@@ -50,7 +51,7 @@ body{
     width: 100%;
 }
 #messageInp{
-    width: 50%;
+    width: 60%;
     margin: 15px;
     border: 2px solid black;
     border-radius: 8px;
