@@ -66,3 +66,26 @@ body{
     padding: 5px;
     text-align: center;
 }
+
+@media screen and (min-width:300px) and (max-width: 330px){
+    .container{
+        height: 70vh;
+    }
+    
+}
+@media screen and (min-width:750px) and (max-width: 770px){
+    .container{
+        height: 80vh;
+    }
+    .name{
+        height: 70px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width: 1030px){
+    .container{
+        height: 75vh;
+    }
+    .name{
+        height: 65px;
+    }
+}
