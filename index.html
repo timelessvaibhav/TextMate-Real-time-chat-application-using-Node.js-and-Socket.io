@@ -20,12 +20,13 @@
         TextMate: your real time chat room
     </div>
     <div class="container">
-        <div class="message right">Friend1: Hey, How are you</div>
-        <div class="message left">Friend2: Hi, I am fine</div>
+        <!-- <div class="message right">Friend1: Hey, How are you</div>
+        <div class="message left">Friend2: Hi, I am fine</div> -->
     </div>
     <div class="send">
-        <form action="#" id = "send-container">
-            <input type="text" name="messageInp" id="messageInp">
+        <form autocomplete = "off" action="#" id = "send-container">
+            <input autocomplete="false" name="hidden" type="text" style="display:none;">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Message">
             <button class="btn" type="submit">Send</button>
         </form>
     </div>
