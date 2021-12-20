@@ -5,3 +5,7 @@ The project was developed with the intention to understand the concept and appli
 # Preview Screenshot (Desktop)
 
 <img src = "https://github.com/timelessvaibhav/TextMate-Real-time-chat-application-using-Node.js-and-Socket.io/blob/main/Preview%20Screenshot/Screenshot%20(194).png">
+
+# Preview Screenshot (Mobile Phone)
+
+<img src = "https://github.com/timelessvaibhav/TextMate-Real-time-chat-application-using-Node.js-and-Socket.io/blob/main/Preview%20Screenshot/Screenshot%20(196).png">
