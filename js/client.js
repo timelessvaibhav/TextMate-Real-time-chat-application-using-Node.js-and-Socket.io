@@ -1,7 +1,7 @@
 // Client side scripting
 
 // establishing a connection with the node server
-const socket = io('http://localhost:8000',{
+const socket = io('https://textmate-chatapplication.herokuapp.com',{
     transports: ['websocket']
 });
 const form = document.getElementById('send-container');
