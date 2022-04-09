@@ -1,6 +1,5 @@
 // Node Server Which Will Handle Socket.io Connections
-
-const io = require('socket.io')(8000,{
+var io = require('socket.io')(8000,{
   cors:{
     origin: '*',
   }
@@ -8,6 +7,8 @@ const io = require('socket.io')(8000,{
 const users = {};
 // Creates a new socket everytime a new user joins
 io.on('connection', socket =>{
+
+  console.log("Server running"); 
 
   // Whenever a new user joins, let others connected to the server know
     socket.on('new-user-joined', name => {
